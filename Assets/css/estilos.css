@@ -292,10 +292,6 @@ img{
 }
 
 
-#perimetro p {
-    
-}
-
 #perimetro {
     background: rgba(0, 0, 0, 0.9);
     color: #fff;
@@ -376,10 +372,6 @@ img{
 }
 
 
-#perimetro1 p {
-    
-}
-
 #perimetro1 {
     background: rgba(0, 0, 0, 0.9);
     color: #fff;
@@ -456,11 +448,6 @@ img{
     height: 10px;
     width: 10px;
     transition: all .5s;
-}
-
-
-#perimetro2 p {
-    
 }
 
 #perimetro2 {
@@ -543,10 +530,6 @@ img{
 }
 
 
-#perimetro3 p {
-    
-}
-
 #perimetro3 {
     background: rgba(0, 0, 0, 0.9);
     color: #fff;
@@ -625,10 +608,6 @@ img{
     transition: all .5s;
 }
 
-
-#area p {
-    
-}
 
 #area {
     background: rgba(0, 0, 0, 0.9);
@@ -710,10 +689,6 @@ img{
 }
 
 
-#area1 p {
-    
-}
-
 #area1 {
     background: rgba(0, 0, 0, 0.9);
     color: #fff;
@@ -792,10 +767,6 @@ img{
     transition: all .5s;
 }
 
-
-#area2 p {
-    
-}
 
 #area2 {
     background: rgba(0, 0, 0, 0.9);
@@ -876,9 +847,6 @@ img{
 }
 
 
-#area3 p {
-    
-}
 
 #area3 {
     background: rgba(0, 0, 0, 0.9);
