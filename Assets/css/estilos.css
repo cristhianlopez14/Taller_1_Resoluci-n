@@ -1,0 +1,1007 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera{
+    display: flex;
+    width: 100%;
+    background-color: green;
+}
+
+.cabecera h1{
+    font-size: 2.5em;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    background-color:greenyellow;
+    height: auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: greenyellow;
+    width: 100%;
+}
+
+li{
+    width: 16.661%;
+    text-align: center;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: white;
+    color: #333;
+    border: 1px solid black;
+}
+
+.section img{
+    background: fixed;
+    background-position: 100%;
+    width: 100%;
+    height: 500px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    bottom:0;
+    height: 50px;
+}
+
+footer h2{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(38, 128, 38);
+    font-size: 1.5em;
+}
+
+/*-------------------EJERCICIO 1-----------------*/
+
+.ejercicio1{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#palabra{
+    display: flex;
+    width: 35%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    margin-top: 5rem;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#longitud, #mayusculas, #minusculas, #primercaracter{
+    display: flex;
+    width:30%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: greenyellow;
+}
+
+#longitud:hover, #mayusculas:hover, #minusculas:hover, #primercaracter:hover{
+    background-color: #333;
+    color:white;
+}
+
+/*-------------------EJERCICIO 2-----------------*/
+
+.ejercicio2{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5.5rem;
+    background-color: rgb(38, 128, 38);
+    width: 70%;
+    border-radius: 15px;
+    justify-content: space-around;
+    height: 300px;
+    border: 3px solid black;
+    color: black;
+
+}
+
+#grados{
+    margin: 1rem;
+    border: none;
+    background-color: greenyellow;
+    border: 2px solid black;
+    width: 17%;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.inicial-2{
+    flex-direction: row;
+}
+
+select{
+    width: 150px;
+    height: 40px;
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.calcular{
+    background-color: greenyellow;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    font-size: 1em;
+}
+
+.calcular:hover{
+    border: 2px solid black;
+
+}
+
+
+
+/*-------------------EJERCICIO 3-----------------*/
+
+.ejercicio3{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5.5rem;
+    background-color: rgb(38, 128, 38);
+    width: 70%;
+    border-radius: 15px;
+    justify-content: space-around;
+    height: 300px;
+    border: 2px solid black;
+}
+
+#lado1, #lado2, #lado3{
+    padding: 1rem;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    background-color: greenyellow;
+}
+
+.botton{
+    padding: 0.5rem;
+    border: none;
+    border-bottom:2px solid #333;
+}
+
+/*-------------------EJERCICIO 4-----------------*/
+
+.ejercicio4{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5.5rem;
+    background-color: rgb(38, 128, 38);
+    width: 70%;
+    border-radius: 15px;
+    justify-content: space-around;
+    height: 300px;
+    border: 2px solid black;
+}
+
+#nombre, #apellido, #competencia{
+    font-size: 1em;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 32%;
+}
+
+/*-------------------EJERCICIO 5-----------------*/
+
+.ejercicio5{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.card1, .card2, .card3, .card4{
+    justify-items: center;
+    width: 20%;
+    text-align: center;
+    margin-top: 5%;
+    height: 250px;
+}
+
+.card1, .card3{
+    background-color: rgb(38, 128, 38);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.card2, .card4{
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+img{
+    width: 100px;
+}
+
+
+.camps{
+    background-color:  rgb(38, 128, 38);
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+/*-------------------MODAL PERIMETRO CIRCULO-----------------*/
+
+#perimetro {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    transition: all .5s;
+}
+
+
+#perimetro p {
+    
+}
+
+#perimetro {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+#mostrar-perimetro {
+    display: none;
+}
+
+#mostrar-perimetro + label {
+    background-color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#mostrar-perimetro + label:hover {
+    color: wheat;
+}
+
+#mostrar-perimetro:checked ~ #perimetro {
+    top: 0;
+}
+
+#cerrar-perimetro {
+    display: none;
+}
+
+#cerrar-perimetro + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background: yellow;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 15s;
+}
+
+#cerrar-perimetro:checked ~ #perimetro {
+    top: -100vh;
+}
+
+#cerrar-perimetro + label {
+    display: none;
+}
+
+#mostrar-perimetro:checked ~ #cerrar-perimetro + label {
+    display: block;
+}
+#cerrar-perimetro:checked + label {
+    display: none;
+}
+
+
+/*-------------------MODAL PERIMETRO TRIANGULO-----------------*/
+
+#perimetro1 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    transition: all .5s;
+}
+
+
+#perimetro1 p {
+    
+}
+
+#perimetro1 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+#mostrar-perimetro1 {
+    display: none;
+}
+
+#mostrar-perimetro1 + label {
+    background-color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#mostrar-perimetro1 + label:hover {
+    color: wheat;
+}
+
+#mostrar-perimetro1:checked ~ #perimetro1 {
+    top: 0;
+}
+
+#cerrar-perimetro1 {
+    display: none;
+}
+
+#cerrar-perimetro1 + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background: yellow;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 15s;
+}
+
+#cerrar-perimetro1:checked ~ #perimetro1 {
+    top: -100vh;
+}
+
+#cerrar-perimetro1 + label {
+    display: none;
+}
+
+#mostrar-perimetro1:checked ~ #cerrar-perimetro1 + label {
+    display: block;
+}
+#cerrar-perimetro1:checked + label {
+    display: none;
+}
+
+/*-------------------MODAL PERIMETRO RECTANGULO-----------------*/
+
+#perimetro2 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    transition: all .5s;
+}
+
+
+#perimetro2 p {
+    
+}
+
+#perimetro2 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+#mostrar-perimetro2 {
+    display: none;
+}
+
+#mostrar-perimetro2 + label {
+    background-color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#mostrar-perimetro2 + label:hover {
+    color: wheat;
+}
+
+#mostrar-perimetro2:checked ~ #perimetro2 {
+    top: 0;
+}
+
+#cerrar-perimetro2 {
+    display: none;
+}
+
+#cerrar-perimetro2 + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background: yellow;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 15s;
+}
+
+#cerrar-perimetro2:checked ~ #perimetro2 {
+    top: -100vh;
+}
+
+#cerrar-perimetro2 + label {
+    display: none;
+}
+
+#mostrar-perimetro2:checked ~ #cerrar-perimetro2 + label {
+    display: block;
+}
+#cerrar-perimetr2:checked + label {
+    display: none;
+}
+
+
+/*-------------------MODAL PERIMETRO CUADRADO-----------------*/
+
+#perimetro3 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    transition: all .5s;
+}
+
+
+#perimetro3 p {
+    
+}
+
+#perimetro3 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+#mostrar-perimetro3 {
+    display: none;
+}
+
+#mostrar-perimetro3 + label {
+    background-color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#mostrar-perimetro3 + label:hover {
+    color: wheat;
+}
+
+#mostrar-perimetro3:checked ~ #perimetro3 {
+    top: 0;
+}
+
+#cerrar-perimetro3 {
+    display: none;
+}
+
+#cerrar-perimetro3 + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background: yellow;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 15s;
+}
+
+#cerrar-perimetro3:checked ~ #perimetro3 {
+    top: -100vh;
+}
+
+#cerrar-perimetro3 + label {
+    display: none;
+}
+
+#mostrar-perimetro3:checked ~ #cerrar-perimetro3 + label {
+    display: block;
+}
+#cerrar-perimetr3:checked + label {
+    display: none;
+}
+
+/*-------------------MODAL AREA CIRCULO-----------------*/
+
+#area {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    transition: all .5s;
+}
+
+
+#area p {
+    
+}
+
+#area {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+#mostrar-area {
+    display: none;
+}
+
+#mostrar-area + label {
+    background-color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#mostrar-area + label:hover {
+    color: wheat;
+}
+
+#mostrar-area:checked ~ #area {
+    top: 0;
+}
+
+#cerrar-area {
+    display: none;
+}
+
+#cerrar-area + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background: yellow;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 15s;
+}
+
+#cerrar-area:checked ~ #area {
+    top: -100vh;
+}
+
+#cerrar-area + label {
+    display: none;
+}
+
+#mostrar-area:checked ~ #cerrar-area + label {
+    display: block;
+}
+#cerrar-area:checked + label {
+    display: none;
+}
+
+
+/*-------------------MODAL AREA TRIANGULO-----------------*/
+
+#area1 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    transition: all .5s;
+}
+
+
+#area1 p {
+    
+}
+
+#area1 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+#mostrar-area1 {
+    display: none;
+}
+
+#mostrar-area1 + label {
+    background-color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#mostrar-area1 + label:hover {
+    color: wheat;
+}
+
+#mostrar-area1:checked ~ #area1 {
+    top: 0;
+}
+
+#cerrar-area1 {
+    display: none;
+}
+
+#cerrar-area1 + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background: yellow;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 15s;
+}
+
+#cerrar-area1:checked ~ #area1 {
+    top: -100vh;
+}
+
+#cerrar-area1 + label {
+    display: none;
+}
+
+#mostrar-area1:checked ~ #cerrar-area1 + label {
+    display: block;
+}
+#cerrar-area1:checked + label {
+    display: none;
+}
+
+/*-------------------MODAL AREA RECTANGULO-----------------*/
+
+#area2 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    transition: all .5s;
+}
+
+
+#area2 p {
+    
+}
+
+#area2 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+#mostrar-area2 {
+    display: none;
+}
+
+#mostrar-area2 + label {
+    background-color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#mostrar-area2 + label:hover {
+    color: wheat;
+}
+
+#mostrar-area2:checked ~ #area2 {
+    top: 0;
+}
+
+#cerrar-area2 {
+    display: none;
+}
+
+#cerrar-area2 + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background: yellow;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 15s;
+}
+
+#cerrar-area2:checked ~ #area2 {
+    top: -100vh;
+}
+
+#cerrar-area2 + label {
+    display: none;
+}
+
+#mostrar-area2:checked ~ #cerrar-area2 + label {
+    display: block;
+}
+#cerrar-area2:checked + label {
+    display: none;
+}
+
+/*-------------------MODAL AREA CUADRADO-----------------*/
+
+#area3 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    transition: all .5s;
+}
+
+
+#area3 p {
+    
+}
+
+#area3 {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+#mostrar-area3 {
+    display: none;
+}
+
+#mostrar-area3 + label {
+    background-color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#mostrar-area3 + label:hover {
+    color: wheat;
+}
+
+#mostrar-area3:checked ~ #area3 {
+    top: 0;
+}
+
+#cerrar-area3 {
+    display: none;
+}
+
+#cerrar-area3 + label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background: yellow;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 15s;
+}
+
+#cerrar-area3:checked ~ #area3 {
+    top: -100vh;
+}
+
+#cerrar-area3 + label {
+    display: none;
+}
+
+#mostrar-area3:checked ~ #cerrar-area3 + label {
+    display: block;
+}
+#cerrar-area3:checked + label {
+    display: none;
+}
+
+
+
+/*EJERCICIO 6 FORMULARIO*/
+
+
+.formulario{
+    display: flex;
+    margin: 0;
+    padding: 1rem;
+}
+
+.camposFormulario{
+    background-color:rgb(38, 128, 38);
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 15px green;
+    text-align: center;
+}
+.titleForm{
+    font-size: 2em;
+}
+.tiposNom{
+    font-size: 1.3em;
+}
+
+.tiposDoc{
+    background-color: #333;
+    margin: 0;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 0.9em;
+    width: 250px;
+    color: white;
+    font-size: 1em;
+}
+
+.documentoForm{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    justify-content: center;
+}
+.itemsform{
+    margin:0 2rem;
+}
+
+
+
+
+
+
+
+
