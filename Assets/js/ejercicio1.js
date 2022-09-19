@@ -1,7 +1,6 @@
 var tipo;
 function init(){
     alert("Ejercicio 1");
-    var palabra = document.getElementById("palabra").value;
     var longitud = document.getElementById('longitud');
     var mayusculas = document.getElementById('mayusculas');
     var minusculas = document.getElementById('minusculas');

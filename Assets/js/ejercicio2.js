@@ -1,6 +1,4 @@
-
 var calcular = document.getElementById('calcular');
-
 calcular.onclick = function(e){
     convertir();
 }

@@ -10,19 +10,15 @@ var calcularCC = document.getElementById('calcularCC');
 calcular.onclick = function (e){
     medir();
 }
-
 calcularAC.onclick = function (e){
     medir();
 }
-
 calcularPT.onclick = function (e){
     medir();
 }
-
 calcularAT.onclick = function (e){
     medir();
 }
-
 calcularPR.onclick = function (e){
     medir();
 }
@@ -35,7 +31,6 @@ calcularPC.onclick = function (e){
 calcularCC.onclick = function (e){
     medir();
 }
-
 
 function medir() {
    var radio = document.getElementById('radio').value;
