@@ -192,7 +192,22 @@ select{
     height: 300px;
     border: 2px solid black;
 }
-
+.ejercicioi{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5.5rem;
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 70%;
+    border-radius: 15px;
+    justify-content: space-around;
+    height: 400px;
+    border: 2px solid black;
+}
 #lado1, #lado2, #lado3{
     padding: 1rem;
     border-radius: 15px;
